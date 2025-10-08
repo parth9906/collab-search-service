@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: search-service
+
+  data:
+    elasticsearch:
+      client:
+        endpoints: localhost:9200
+
+server:
+  port: 9097
+
+jwt:
+  secret: VGhpcyBpcyBhIHZlcnkgc2VjdXJlIGFuZCB2YWxpZCBCYXNlNjQga2V5Lg==
